@@ -5,7 +5,7 @@ const port = 8000
 app.use(express.json())
 
 app.use('/', (req, res)=>{
-    res.send({ status: 200, message: "Hello World!"})
+    res.send({ status: 200, message: "Hello World, what's up!"})
 })
 
 app.listen(port, ()=> {
